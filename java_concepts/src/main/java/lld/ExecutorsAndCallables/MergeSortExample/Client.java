@@ -19,5 +19,7 @@ public class Client {
 
         System.out.print(ans);
 
+        es.shutdown();
+
     }
 }
