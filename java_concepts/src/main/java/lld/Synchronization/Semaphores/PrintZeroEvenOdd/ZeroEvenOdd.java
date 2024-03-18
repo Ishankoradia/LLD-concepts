@@ -11,9 +11,9 @@ public class ZeroEvenOdd {
     
     public ZeroEvenOdd(int n) {
         this.n = n;
-        this.zeroSema = new Semaphore(1); // 0
-        this.evenSema = new Semaphore(0); // 1
-        this.oddSema = new Semaphore(0); // 1
+        this.zeroSema = new Semaphore(1); 
+        this.evenSema = new Semaphore(0); 
+        this.oddSema = new Semaphore(0);
     }
 
     // printNumber.accept(x) outputs "x", where x is an integer.
