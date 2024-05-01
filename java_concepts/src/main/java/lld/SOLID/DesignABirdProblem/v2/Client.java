@@ -38,5 +38,6 @@ public class Client {
 
         Crow crow = new Crow();
         crow.name = "Crow pet name";
+        System.out.println(crow.color);
     }
 }
