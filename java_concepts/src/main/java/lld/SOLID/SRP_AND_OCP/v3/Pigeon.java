@@ -1,4 +1,4 @@
-package lld.SOLID.DesignABirdProblem.v3;
+package lld.SOLID.SRP_AND_OCP.v3;
 
 public class Pigeon extends FlyBird {
     String name;

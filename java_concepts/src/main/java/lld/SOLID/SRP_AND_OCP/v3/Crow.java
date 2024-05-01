@@ -1,6 +1,6 @@
-package lld.SOLID.DesignABirdProblem.v2;
+package lld.SOLID.SRP_AND_OCP.v3;
 
-public class Crow extends Bird {
+public class Crow extends FlyBird {
     String name;
     String noOfLegs;
     String noOfWings;

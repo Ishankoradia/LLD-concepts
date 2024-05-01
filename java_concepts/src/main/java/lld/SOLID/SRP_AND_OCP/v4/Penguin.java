@@ -1,7 +1,7 @@
-package lld.SOLID.DesignABirdProblem.v4;
+package lld.SOLID.SRP_AND_OCP.v4;
 
-import lld.SOLID.DesignABirdProblem.v4.BirdBehaviours.Danceable;
-import lld.SOLID.DesignABirdProblem.v4.BirdBehaviours.Soundable;
+import lld.SOLID.SRP_AND_OCP.v4.BirdBehaviours.Danceable;
+import lld.SOLID.SRP_AND_OCP.v4.BirdBehaviours.Soundable;
 
 public class Penguin extends Bird implements Soundable, Danceable {
     String name;

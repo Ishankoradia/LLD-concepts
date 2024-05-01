@@ -1,7 +1,7 @@
-package lld.SOLID.DesignABirdProblem.v4;
+package lld.SOLID.SRP_AND_OCP.v4;
 
-import lld.SOLID.DesignABirdProblem.v4.BirdBehaviours.Flyable;
-import lld.SOLID.DesignABirdProblem.v4.BirdBehaviours.Soundable;
+import lld.SOLID.SRP_AND_OCP.v4.BirdBehaviours.Flyable;
+import lld.SOLID.SRP_AND_OCP.v4.BirdBehaviours.Soundable;
 
 public class Crow extends Bird implements Flyable, Soundable {
     String name;

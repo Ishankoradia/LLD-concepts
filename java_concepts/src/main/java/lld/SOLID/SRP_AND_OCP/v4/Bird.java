@@ -1,4 +1,4 @@
-package lld.SOLID.DesignABirdProblem.v4;
+package lld.SOLID.SRP_AND_OCP.v4;
 
 public abstract class Bird {
     String name;

@@ -1,9 +1,9 @@
-package lld.SOLID.DesignABirdProblem.v4;
+package lld.SOLID.SRP_AND_OCP.v4;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import lld.SOLID.DesignABirdProblem.v4.BirdBehaviours.Flyable;
+import lld.SOLID.SRP_AND_OCP.v4.BirdBehaviours.Flyable;
 
 public class Client {
     public static void main(String[] args) {

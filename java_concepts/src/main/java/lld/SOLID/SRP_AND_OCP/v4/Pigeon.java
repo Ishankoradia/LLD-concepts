@@ -1,6 +1,9 @@
-package lld.SOLID.DesignABirdProblem.v2;
+package lld.SOLID.SRP_AND_OCP.v4;
 
-public class Pigeon extends Bird {
+import lld.SOLID.SRP_AND_OCP.v4.BirdBehaviours.Flyable;
+import lld.SOLID.SRP_AND_OCP.v4.BirdBehaviours.Soundable;
+
+public class Pigeon extends Bird implements Flyable, Soundable {
     String name;
     String noOfLegs;
     String noOfWings;

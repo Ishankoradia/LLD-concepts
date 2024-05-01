@@ -1,4 +1,4 @@
-package lld.SOLID.DesignABirdProblem.v1;
+package lld.SOLID.SRP_AND_OCP.v1;
 
 public class Client {
     public static void main(String[] args) {
