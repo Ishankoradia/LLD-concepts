@@ -15,6 +15,8 @@
 
     3. **Prototype and registry**: This pattern is used when we want to create multiple objects of an entity with minor configuration changes but with the same base attributes. For such cases, we create base templates (called `Prototype`) using which we can build those multiple objects with some minor changes. We store these `Prototypes` in a hash map called `Registry`.
 
+    4. **Factory pattern**: Factory Method Design Pattern is a creational design pattern that provides an interface for creating objects in a superclass, allowing subclasses to alter the type of objects that will be created. It encapsulates object creation logic in a separate method, promoting loose coupling between the creator and the created objects. This pattern is particularly useful when the exact types of objects to be created may vary or need to be determined at runtime, enabling flexibility and extensibility in object creation.
+
     The example should make things clear
 
 2. Structural Design Patterns
