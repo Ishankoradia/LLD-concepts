@@ -13,6 +13,8 @@
 
         - The object of the class should only be created after certain validations
 
+    3. **Prototype and registry**: This pattern is used when we want to create multiple objects of an entity with minor configuration changes but with the same base attributes. For such cases, we create base templates (called `Prototype`) using which we can build those multiple objects with some minor changes. We store these `Prototypes` in a hash map called `Registry`.
+
     The example should make things clear
 
 2. Structural Design Patterns
