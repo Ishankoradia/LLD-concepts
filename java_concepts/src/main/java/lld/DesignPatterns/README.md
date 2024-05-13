@@ -1,4 +1,4 @@
-1. Creational Desgin Patterns
+1. Creational Desgin Patterns - These patterns talk about how or how many object(s) will be created
 
     1. **Singleton design pattern**: Allows us to create a class for which only 1 object can be created
 
@@ -19,6 +19,12 @@
 
     The example should make things clear
 
-2. Structural Design Patterns
+2. Structural Design Patterns - These patterns will talk about how to structure your code base
+
+    1. **Adapter pattern**: is a structural design pattern that allows objects with incompatible interfaces to collaborate. Basically, we call the adapter a layer that converts one form to another. A phrase that is very applicable here is "Never code to implementation, code to interface" (loosely coupled code).
+
+    2. **Facade pattern**: is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes. In literal terms, a facade is something that appears from the outside.
+
+
 
 3. Behavioural Design Patterns
