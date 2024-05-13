@@ -25,6 +25,10 @@
 
     2. **Facade pattern**: is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes. In literal terms, a facade is something that appears from the outside. This basically refactoring into a helper or service or util class to make code more readable & modular.
 
+    3. **Decorator**: is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+
+    4. **Flyweight**: is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object. The object is divided into `intrinsic` state (shared & independent of the context) and `extrinsic` state (variable & dependent on context). We can use `registry` to store the `intrinsic` objects. The idea is we are expecting to have a lot of extrinsic objects with references to their respective intrinsic objects
+
 
 
 3. Behavioural Design Patterns
