@@ -23,7 +23,7 @@
 
     1. **Adapter pattern**: is a structural design pattern that allows objects with incompatible interfaces to collaborate. Basically, we call the adapter a layer that converts one form to another. A phrase that is very applicable here is "Never code to implementation, code to interface" (loosely coupled code).
 
-    2. **Facade pattern**: is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes. In literal terms, a facade is something that appears from the outside.
+    2. **Facade pattern**: is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes. In literal terms, a facade is something that appears from the outside. This basically refactoring into a helper or service or util class to make code more readable & modular.
 
 
 
