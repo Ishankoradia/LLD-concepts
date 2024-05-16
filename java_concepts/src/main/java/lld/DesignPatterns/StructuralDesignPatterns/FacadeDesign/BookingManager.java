@@ -13,7 +13,7 @@ public class BookingManager {
     BookingManagerFacade facade;
 
     // As you can see here; it looks as if .book() is just a single line of code but
-    // behind the scenes in facade lot of things are going on and abstracted out
+    // behind the scenes in facade lot of things are going on and are abstracted out
     // from here
 
     public BookingManager(AvailabilityService availabilityService, PaymentService paymentService,
