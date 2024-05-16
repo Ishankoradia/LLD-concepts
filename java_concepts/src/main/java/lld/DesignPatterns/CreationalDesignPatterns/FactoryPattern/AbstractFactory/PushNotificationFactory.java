@@ -7,7 +7,7 @@ import lld.DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactor
 import lld.DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactory.template.NotificationTemplate;
 import lld.DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactory.template.PushNotificationTemplate;
 
-public class PushNotificationFactory {
+public class PushNotificationFactory extends NotificationFactory {
     public NotificationType notificationType() {
         return NotificationType.PUSH;
     }
