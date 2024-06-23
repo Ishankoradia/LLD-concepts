@@ -1,0 +1,5 @@
+File Name,API Endpoint,Slug,Permission Name
+task_api.py,/{task_id},,
+user_org_api.py,/login/,login,Login
+user_org_api.py,/users/reset_password/,users_reset_password,Users Reset_password
+user_org_api.py,/users/verify_email/,users_verify_email,Users Verify_email
