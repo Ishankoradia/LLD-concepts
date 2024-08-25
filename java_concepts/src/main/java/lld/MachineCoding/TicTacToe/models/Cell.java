@@ -8,6 +8,13 @@ public class Cell {
     private Player player; // which player has marked the cell
     private CellState cellState;
 
+    public Cell(int row, int col) {
+        this.row = row;
+        this.col = col;
+        this.cellState = CellState.EMPTY;
+        this.player = null;
+    }
+
     public int getRow() {
         return row;
     }
@@ -38,6 +45,14 @@ public class Cell {
 
     public void setCellState(CellState cellState) {
         this.cellState = cellState;
+    }
+
+    public void display() {
+        if (player == null) {
+            System.out.print("| - |");
+        } else {
+            System.out.print("| " + player.getSymbol().getSymbol() + " |");
+        }
     }
 
 }

@@ -26,23 +26,24 @@ public class GameController {
     }
 
     public void displayBoard(Game game) {
-        game.getBoard().displayBoard();
+        game.printBoard();
     }
 
     public void makeMove(Game game) {
         // Make a move on the game that is passed
+        game.makeMove();
     }
 
-    public GameState checkState() {
-        return null;
+    public GameState checkState(Game game) {
+        return game.getGameState();
     }
 
-    public Player getWinner() {
-        return null;
+    public Player getWinner(Game game) {
+        return game.getWinner();
     }
 
-    public void undo() {
-
+    public void undo(Game game) {
+        game.handleUndo();
     }
 
     /**

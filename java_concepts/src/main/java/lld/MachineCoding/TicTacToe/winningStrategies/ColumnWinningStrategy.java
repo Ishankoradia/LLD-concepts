@@ -7,20 +7,20 @@ import lld.MachineCoding.TicTacToe.models.Board;
 import lld.MachineCoding.TicTacToe.models.Move;
 import lld.MachineCoding.TicTacToe.models.Symbol;
 
-public class RowWinningStrategy implements WinningStrategy {
+public class ColumnWinningStrategy implements WinningStrategy {
 
     Map<Integer, Map<Symbol, Integer>> colCountMap = new HashMap<>();
 
     @Override
     public boolean checkWinner(Board board, Move move) {
-        int row = move.getCell().getRow();
+        int col = move.getCell().getCol();
         Symbol symbol = move.getPlayer().getSymbol();
 
-        if (!colCountMap.containsKey(row)) {
-            colCountMap.put(row, new HashMap<>());
+        if (!colCountMap.containsKey(col)) {
+            colCountMap.put(col, new HashMap<>());
         }
 
-        Map<Symbol, Integer> colMap = colCountMap.get(row);
+        Map<Symbol, Integer> colMap = colCountMap.get(col);
 
         if (!colMap.containsKey(symbol)) {
             colMap.put(symbol, 0);
@@ -36,10 +36,10 @@ public class RowWinningStrategy implements WinningStrategy {
 
     @Override
     public void handleUndo(Board board, Move move) {
-        int row = move.getCell().getRow();
+        int col = move.getCell().getCol();
         Symbol symbol = move.getPlayer().getSymbol();
 
-        Map<Symbol, Integer> rowMap = colCountMap.get(row);
+        Map<Symbol, Integer> rowMap = colCountMap.get(col);
         rowMap.put(symbol, rowMap.get(symbol) - 1);
     }
 
