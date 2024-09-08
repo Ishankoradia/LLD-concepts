@@ -10,7 +10,7 @@ public class Ticket extends BaseModel {
     private Gate gateGeneratedAt;
     private Operator generatedBy;
 
-    public String getTicketNo() {
+    public String getTicketNo() { // ID + Some String(ABC)
         return ticketNo;
     }
 

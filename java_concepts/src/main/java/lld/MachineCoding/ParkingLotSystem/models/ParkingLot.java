@@ -3,7 +3,9 @@ package lld.MachineCoding.ParkingLotSystem.models;
 import java.util.List;
 
 import lld.MachineCoding.ParkingLotSystem.enums.ParkingLotStatus;
+import lld.MachineCoding.ParkingLotSystem.enums.SlotAssignStrategyType;
 import lld.MachineCoding.ParkingLotSystem.enums.VehicleType;
+import lld.MachineCoding.ParkingLotSystem.strategies.SlotAssignStrategy;
 
 public class ParkingLot extends BaseModel {
     private List<ParkingFloor> parkingFloors;
@@ -11,6 +13,7 @@ public class ParkingLot extends BaseModel {
     private List<VehicleType> supporVehicleTypes;
     private String address;
     private ParkingLotStatus parkingLotStatus;
+    private SlotAssignStrategyType slotAssignStrategyType;
 
     public List<ParkingFloor> getParkingFloors() {
         return parkingFloors;
@@ -50,6 +53,14 @@ public class ParkingLot extends BaseModel {
 
     public void setParkingLotStatus(ParkingLotStatus parkingLotStatus) {
         this.parkingLotStatus = parkingLotStatus;
+    }
+
+    public SlotAssignStrategyType getSlotAssignStrategyType() {
+        return slotAssignStrategyType;
+    }
+
+    public void setSlotAssignStrategyType(SlotAssignStrategyType slotAssignStrategyType) {
+        this.slotAssignStrategyType = slotAssignStrategyType;
     }
 
 }
